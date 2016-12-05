@@ -7,8 +7,6 @@ namespace PaperStoneScisors
         static void Main(string[] args)
         {
             Game.startGame();
-
-            
         }
     }
 }

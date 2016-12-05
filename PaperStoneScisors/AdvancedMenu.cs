@@ -13,7 +13,7 @@ namespace PaperStoneScisors
         public AdvancedMenu(List<string> options)
         {
             this.options = options;
-            activeOption = 0;
+            activeOption = 1;
             foregroundDefault = Console.ForegroundColor;
         }
 

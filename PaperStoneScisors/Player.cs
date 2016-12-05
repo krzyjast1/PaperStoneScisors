@@ -8,6 +8,7 @@ namespace PaperStoneScisors
 {
     class Player
     {
+        public int pointCounter { get; set; }
         public enum Choice { PAPER, STONE, SCISSORS };
         public Choice choice { get; set; }
     }
